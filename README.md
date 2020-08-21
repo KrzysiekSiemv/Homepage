@@ -1,1 +1,2 @@
-# homepage
+# Strona domowa
+Jest to strona, która początkowo była przygotowana dla domowników i była postawiona na tak zwanej malinie "Raspberry Pi 3B+", póżniej została upubliczniona dla osób, którzy mieli tego samego dostawce i na sam koniec trafia ona tutaj, gdzie każdy może używać tej strony jak swojej. Zawiera wbudowaną wyszukiwarkę oraz parę stron. Wkrótce zostanie dodana możliwość dodawania swoich stron do danych zakładek i będą zapisywane informacje w ciasteczkach.
