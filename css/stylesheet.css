@@ -1,0 +1,128 @@
+﻿@font-face {
+    font-family: FantasqueSansMonoRegular;
+    src: url(font.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.collapse a {
+    margin: 0px 16px;
+}
+
+.btn {
+    margin: 0 8px;    
+}
+
+.socialbtn {
+    color: #e67e22;
+}
+
+.shopbtn {
+    color: #27ae60;
+}
+
+.workbtn {
+    color: #8e44ad;
+}
+
+.schoolbtn {
+    color: #c0392b;
+}
+
+.bankbtn {
+    color: #1abc9c;
+}
+
+.gamesbtn {
+    color: #7ed6df;
+}
+
+.otherbtn {
+    color: #44bd32;
+}
+
+.localbtn {
+    color: #f1c40f;
+}
+
+.languageLink {
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.footer {
+    transition: background-color 0.5s ease;
+    padding: 8px;
+    background-color: rgb(220, 220, 220);
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+body {
+    transition: background-color 0.5s ease;
+    background-color: white;
+}
+
+.menu {
+    padding: 4px;
+    margin: 16px;
+    border-radius: 16px;
+    background-color: rgb(220, 220, 220);
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    text-decoration: overline;
+}
+
+.col {
+    color: black;
+}
+
+.modal-content {
+    transition: background-color 0.5s ease;
+    background-color: white;
+    color: black;
+}
+
+.weatherwidget-io {
+    border-radius: 8px;
+    margin: 16px 4px;
+}
+
+/* Dark Mode */
+
+body.dark-mode {
+    transition: background-color 0.5s ease;
+    background-color: rgb(10, 10, 10);
+}
+
+.dark-mode h2 {
+    color: white;
+}
+
+.dark-mode .footer {
+    transition: background-color 0.5s ease;
+    background-color: rgb(30, 30, 30);
+    padding: 8px;
+    color: white;
+}
+
+.dark-mode .menu {
+    padding: 4px;
+    margin: 16px;
+    background-color: rgb(30, 30, 30);
+    text-decoration: none;
+    color: white;
+}

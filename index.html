@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Strona domowa</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+        <meta name="author" content="Krzysztof Smaga">
+    </head>
+
+    <body>
+        <div class="container text-center" style="margin-top:15%;">
+            <h2 class="display-3">Witaj w domu!</h2>
+            <br><br>
+            <form action="" method="GET" id="searchForm" class="input-group mb-3" style="margin: 0px auto;"><input class="form-control bg-dark text-light" type="text" name="q" id="searchPlaceholder" placeholder="Szukaj"><div class="input-group-append"><button class="btn btn-success" type="submit" style="padding: 4px 8px"><svg class="svg-icon" width="24px" height="24px" viewBox="0 0 20 20"><path d="M18.125,15.804l-4.038-4.037c0.675-1.079,1.012-2.308,1.01-3.534C15.089,4.62,12.199,1.75,8.584,1.75C4.815,1.75,1.982,4.726,2,8.286c0.021,3.577,2.908,6.549,6.578,6.549c1.241,0,2.417-0.347,3.44-0.985l4.032,4.026c0.167,0.166,0.43,0.166,0.596,0l1.479-1.478C18.292,16.234,18.292,15.968,18.125,15.804 M8.578,13.99c-3.198,0-5.716-2.593-5.733-5.71c-0.017-3.084,2.438-5.686,5.74-5.686c3.197,0,5.625,2.493,5.64,5.624C14.242,11.548,11.621,13.99,8.578,13.99 M16.349,16.981l-3.637-3.635c0.131-0.11,0.721-0.695,0.876-0.884l3.642,3.639L16.349,16.981z"></path></svg></button></div></form>
+            
+            <a class="btn btn-lg socialbtn" data-toggle="collapse" href="#social">społeczność</a>
+            <a class="btn btn-lg shopbtn" data-toggle="collapse" href="#shop">zakupy</a>
+            <a class="btn btn-lg workbtn" data-toggle="collapse" href="#work">praca</a>
+            <a class="btn btn-lg schoolbtn" data-toggle="collapse" href="#school">szkoła</a>
+            <a class="btn btn-lg bankbtn" data-toggle="collapse" href="#bank">bank</a>
+            <a class="btn btn-lg gamesbtn" data-toggle="collapse" href="#games">gry</a>
+            <a class="btn btn-lg otherbtn" data-toggle="collapse" href="#other">inne</a>
+            <a class="btn btn-lg localbtn" data-toggle="collapse" href="#local">lokalne</a>
+            
+            <div id="options">
+                <div id="social" class="collapse" data-parent="#options">
+                    <div class="menu">
+                        <a class="socialbtn" href="https://facebook.com">facebook</a>
+                        <a class="socialbtn" href="https://reddit.com">reddit</a>
+                        <a class="socialbtn" href="https://youtube.com">youtube</a>
+                        <a class="socialbtn" href="https://twitch.tv">twitch</a>
+                        <a class="socialbtn" href="https://messenger.com">messenger</a>
+                        <a class="socialbtn" href="https://twitter.com">twitter</a>
+                    </div>
+                </div>
+                <div id="shop" class="collapse" data-parent="#options">
+                    <div class="menu">
+                        <a class="shopbtn" href="https://x-kom.pl">x-kom</a>
+                        <a class="shopbtn" href="https://allegro.pl">allegro</a>
+                        <a class="shopbtn" href="https://botland.com.pl">botland</a>
+                        <a class="shopbtn" href="https://ccc.eu/pl">ccc</a>
+                        <a class="shopbtn" href="https://castorama.pl">castorama</a>
+                        <a class="shopbtn" href="https://agatameble.pl">agata meble</a>
+                        <a class="shopbtn" href="https://cropp.com">cropp</a>
+                    </div>
+                </div>
+                <div id="work" class="collapse" data-parent="#options">
+                    <div class="menu">
+                        <a class="workbtn" href="https://github.com">github</a>
+                        <a class="workbtn" href="https://w3schools.com">w3schools</a>
+                        <a class="workbtn" href="https://color-hex.com">color-hex</a>
+                        <a class="workbtn" href="https://stackoverflow.com">stackoverflow</a>
+                    </div>
+                </div>
+                <div id="school" class="collapse" data-parent="#options">
+                    <div class="menu">
+                        <a class="schoolbtn" href="https://portal.librus.pl/rodzina">librus</a>
+                        <a class="schoolbtn" href="https://uonetplus.vulcan.net.pl/koniecpol">dzienniczek+</a>
+                        <a class="schoolbtn" href="https://netacad.com">netacad</a>
+                        <a class="schoolbtn" href="https://office.com">office 365</a>
+                        <a class="schoolbtn" href="http://odrabiamy.pl">odrabiamy.pl</a>
+                        <a class="schoolbtn" href="http://brainly.pl">brainly</a>
+                    </div>
+                </div>
+                <div id="bank" class="collapse" data-parent="#options">
+                    <div class="menu">
+                        <a class="bankbtn" href="https://mbank.pl">mbank</a>
+                        <a class="bankbtn" href="https://www.ipko.pl">ipko</a>
+                        <a class="bankbtn" href="https://paypal.com">paypal</a>
+                        <a class="bankbtn" href="https://www.paysafecard.com/pl-pl/">paysafecard</a>
+                        <a class="bankbtn" href="https://www.blockchain.com/pl/">blockchain</a>
+                    </div>
+                </div>
+                <div id="games" class="collapse" data-parent="#options">
+                    <div class="menu">
+                        <a class="gamesbtn" href="https://classic.minecraft.net/">minecraft classic</a>
+                        <a class="gamesbtn" href="https://roblox.com/">roblox</a>
+                        <a class="gamesbtn" href="https://skribbl.io/">skribbl.io</a>
+                        <a class="gamesbtn" href="https://pyx-1.pretendyoure.xyz/zy/game.jsp">cards against humanity</a>
+                        <a class="gamesbtn" href="https://kurnik.pl">kurnik</a>
+                        <a class="gamesbtn" href="https://krunker.io">krunker.io</a>
+                        <a class="gamesbtn" href="http://playingcards.io/">playingcards.io</a>
+                    </div>
+                </div>
+                <div id="other" class="collapse" data-parent="#options">
+                    <div class="menu">
+                        <a class="otherbtn" href="https://krzysieksiemv.github.io">krzysieksiemv.github</a>
+                        <a class="otherbtn" href="https://pl.socialclub.rockstargames.com/">social club</a>
+                        <a class="otherbtn" href="https://game-rainbow6.ubi.com/pl-pl/">r6s stats</a>
+                        <a class="otherbtn" href="https://uplay.com/">uplay</a>
+                        <a class="otherbtn" href="https://origin.com/">origin</a>
+                        <a class="otherbtn" href="https://steamcommunity.com">steam</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="fixed-bottom footer">
+                <a href="https://github.com/KrzysiekSiemv/homepage" style="margin-right: 16px;">GitHub</a>
+                <a data-toggle="modal" data-target="#settings" href="#settings" style="margin-right: 16px;">Ustawienia</a>
+                <p style="display: inline-block;">KrzysiekSiemv @ 2020</p>
+            </div>
+
+            <div class="modal fade" id="settings">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header"><h4 class="modal-title">Ustawienia</h4><button type="button" class="close" data-dismiss="modal">&times;</button></div>
+                        <div class="modal-body">
+                            <h4>Domyślna wyszukiwarka</h4>
+                            <form>
+                                <select name="se" class="custom-select" id="searchDef">
+                                <option value="google">Google</option>
+                                <option value="duckduckgo">DuckDuckGo</option>
+                                <option value="bing">Bing</option>
+                                <option value="yahoo">Yahoo!</option>
+                                </select>
+                            </form>
+                            <br><br>
+                            <h4>Tryb ciemny</h4>  
+                            <div class="custom-control custom-switch" style="display: inline-block; margin-right: 16px;">
+                                <input type="checkbox" class="custom-control-input" id="switch1">
+                                <label class="custom-control-label" for="switch1">Wyłącz/Włącz</label>
+                            </div> 
+                        </div>
+                        <div class="modal-footer"><button type="button" class="btn btn-success" data-dismiss="modal" onclick="saveSettings()">Zapisz</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
